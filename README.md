@@ -1,4 +1,4 @@
-## VTU-Lab-Programms :school_satchel:
+## VTU Lab Programms :school_satchel:
 
 This repository is made with the **aim** :dart: of collecting and storing *VTU Lab programs* :computer: for all semesters. Hope you'll find it useful.:smile:
 
