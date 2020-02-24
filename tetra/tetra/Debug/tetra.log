@@ -1,0 +1,32 @@
+﻿Build started 2/24/2020 2:06:19 AM.
+     1>Project "C:\Users\107A\Documents\Visual Studio 2010\Projects\tetra\tetra\tetra.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\tetra.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\tetra.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt tetra.cpp
+         tetra.cpp
+     1>c:\users\107a\documents\visual studio 2010\projects\tetra\tetra\tetra.cpp(57): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\tetra.exe.embed.manifest.res" Debug\tetra_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\107A\Documents\Visual Studio 2010\Projects\tetra\Debug\tetra.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\tetra.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\107A\Documents\Visual Studio 2010\Projects\tetra\Debug\tetra.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\107A\Documents\Visual Studio 2010\Projects\tetra\Debug\tetra.lib" /MACHINE:X86 Debug\tetra.exe.embed.manifest.res
+         Debug\tetra.obj
+       Manifest:
+         Deleting file "Debug\tetra.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\tetra.exe.embed.manifest" /manifest Debug\tetra.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\tetra.exe.embed.manifest.res" Debug\tetra_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\107A\Documents\Visual Studio 2010\Projects\tetra\Debug\tetra.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\tetra.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\107A\Documents\Visual Studio 2010\Projects\tetra\Debug\tetra.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\107A\Documents\Visual Studio 2010\Projects\tetra\Debug\tetra.lib" /MACHINE:X86 Debug\tetra.exe.embed.manifest.res
+         Debug\tetra.obj
+         tetra.vcxproj -> C:\Users\107A\Documents\Visual Studio 2010\Projects\tetra\Debug\tetra.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\tetra.unsuccessfulbuild".
+         Touching "Debug\tetra.lastbuildstate".
+     1>Done Building Project "C:\Users\107A\Documents\Visual Studio 2010\Projects\tetra\tetra\tetra.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.44
